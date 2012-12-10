@@ -94,7 +94,7 @@ public class Winterface extends JFrame
         saveAsFile  = new JMenuItem("Save as..");
         close       = new JMenuItem("Close");
 
-        openFile.addActionListener(new OpenFile());
+        //openFile.addActionListener(new OpenFile());
 
         // Adds Menu contents
         fileMenu.add(openFile);
@@ -108,6 +108,7 @@ public class Winterface extends JFrame
 
     }
 
+    /*
     private class OpenFile
     {
         public void actionPerformed(ActionEvent e)
@@ -124,9 +125,10 @@ public class Winterface extends JFrame
             String[] eachLine = textArea.getText().split("\\n");
             for(int i = 0; i < eachLine.length; i++)
             {
-                eachLine[i];
+                //eachLine[i];
             }
         }
     }
+    */
 
 }
