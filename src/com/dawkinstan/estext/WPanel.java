@@ -1,3 +1,5 @@
+package com.dawkinstan.estext;
+
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import java.awt.Graphics;

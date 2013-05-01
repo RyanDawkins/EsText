@@ -1,3 +1,5 @@
+package com.dawkinstan.estext;
+
 import javax.swing.JEditorPane;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
